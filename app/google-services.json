@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "55550270425",
+    "project_id": "entraideetmoismin",
+    "storage_bucket": "entraideetmoismin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55550270425:android:5409f11c4380ad328017c8",
+        "android_client_info": {
+          "package_name": "com.example.entraideettoi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55550270425-ilejrutija6lbm2vqp3td7b3q8b3arjl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY2QwdoFdexL4qOOdlojZNqnVgW0kybfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55550270425-ilejrutija6lbm2vqp3td7b3q8b3arjl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

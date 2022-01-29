@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/sauvegarder"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:onClick="save"
+            android:text="Sauvegarder"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:onClick="backPage"
+            android:text="Retour"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:layout_constraintVertical_bias="0.47000003" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="408dp"
+            android:layout_height="508dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/presentation3">
+
+            <Switch
+                android:id="@+id/courses"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Courses"
+                android:textSize="24sp" />
+
+            <Switch
+                android:id="@+id/administratif"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Démarche administratif"
+                android:textSize="24sp" />
+
+            <Switch
+                android:id="@+id/scolaire"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Soutiens scolaire"
+                android:textSize="24sp" />
+
+            <Switch
+                android:id="@+id/voiture"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Accompagnement en voiture"
+                android:textSize="24sp" />
+
+            <Switch
+                android:id="@+id/demenagement"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Démenagement"
+                android:textSize="24sp" />
+
+            <Switch
+                android:id="@+id/autre"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Autre"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Message"
+                android:textSize="24sp" />
+
+            <View
+                android:id="@+id/presentationMessage"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/white" />
+
+            <Switch
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Messagerie"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="208dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="16dp"
+            android:text="Notification"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Notification" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="208dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="8dp"
+            android:text="Categorie"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <View
+            android:id="@+id/presentation3"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

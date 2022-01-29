@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EntraideEtToi</string>
+    <string name="cr_e_un_compte">crée un Compte</string>
+    <string name="connexion">connexion</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="email">Email</string>
+    <string name="you_don_t_have_account_already_create_account_here">You don\'t have account already? Create account here</string>
+    <string name="cr_er_un_compte">Créer un compte</string>
+    <string name="password">Password</string>
+    <string name="already_have_an_account_login_from_here">Already have an account? Login from here</string>
+</resources>
